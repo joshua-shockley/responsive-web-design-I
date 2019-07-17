@@ -1,3 +1,414 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
-
-
+                            /* Use your own code or past solution for Great Idea Web Page CSS here! */
+                            /* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+*/
+                            
+                            html,
+                            body,
+                            div,
+                            span,
+                            applet,
+                            object,
+                            iframe,
+                            h1,
+                            h2,
+                            h3,
+                            h4,
+                            h5,
+                            h6,
+                            p,
+                            blockquote,
+                            pre,
+                            a,
+                            abbr,
+                            acronym,
+                            address,
+                            big,
+                            cite,
+                            code,
+                            del,
+                            dfn,
+                            em,
+                            img,
+                            ins,
+                            kbd,
+                            q,
+                            s,
+                            samp,
+                            small,
+                            strike,
+                            strong,
+                            sub,
+                            sup,
+                            tt,
+                            var,
+                            b,
+                            u,
+                            i,
+                            center,
+                            dl,
+                            dt,
+                            dd,
+                            ol,
+                            ul,
+                            li,
+                            fieldset,
+                            form,
+                            label,
+                            legend,
+                            table,
+                            caption,
+                            tbody,
+                            tfoot,
+                            thead,
+                            tr,
+                            th,
+                            td,
+                            article,
+                            aside,
+                            canvas,
+                            details,
+                            embed,
+                            figure,
+                            figcaption,
+                            footer,
+                            header,
+                            hgroup,
+                            menu,
+                            nav,
+                            output,
+                            ruby,
+                            section,
+                            summary,
+                            time,
+                            mark,
+                            audio,
+                            video {
+                                margin: 0;
+                                padding: 0;
+                                border: 0;
+                                font-size: 100%;
+                                font: inherit;
+                                vertical-align: baseline;
+                            }
+                            /* HTML5 display-role reset for older browsers */
+                            
+                            article,
+                            aside,
+                            details,
+                            figcaption,
+                            figure,
+                            footer,
+                            header,
+                            hgroup,
+                            menu,
+                            nav,
+                            section {
+                                display: block;
+                            }
+                            
+                            body {
+                                line-height: 1;
+                            }
+                            
+                            ol,
+                            ul {
+                                list-style: none;
+                            }
+                            
+                            blockquote,
+                            q {
+                                quotes: none;
+                            }
+                            
+                            blockquote:before,
+                            blockquote:after,
+                            q:before,
+                            q:after {
+                                content: '';
+                                content: none;
+                            }
+                            
+                            table {
+                                border-collapse: collapse;
+                                border-spacing: 0;
+                            }
+                            /* Set every element's box-sizing to border-box */
+                            
+                            * {
+                                box-sizing: border-box;
+                            }
+                            
+                            html,
+                            body {
+                                height: 100%;
+                                font-family: 'Titillium Web', sans-serif;
+                            }
+                            
+                            h1,
+                            h2,
+                            h3,
+                            h4,
+                            h5 {
+                                font-family: 'Bangers', cursive;
+                                letter-spacing: 1px;
+                                margin-bottom: 15px;
+                            }
+                            /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+                            
+                            * {
+                                box-sizing: border-box;
+                            }
+                            
+                            html,
+                            body {
+                                height: 100%;
+                                font-family: 'Titillium Web', sans-serif;
+                            }
+                            
+                            h1,
+                            h2,
+                            h3,
+                            h4,
+                            h5 {
+                                font-family: 'Bangers', cursive;
+                                letter-spacing: 1px;
+                                margin-bottom: 15px;
+                            }
+                            
+                            body {
+                                box-sizing: border-box;
+                                margin: 0 auto;
+                            }
+                            
+                            .topNav {
+                                box-sizing: border-box;
+                                display: flex;
+                                justify-content: space-evenly;
+                                align-items: center;
+                                width: 100%;
+                                margin: 0 auto;
+                            }
+                            
+                            .logo {
+                                display: flex;
+                                align-self: flex-end;
+                                margin: 5px 10px 0px 20px;
+                            }
+                            
+                            .navigation {
+                                display: flex;
+                                justify-content: space-between;
+                                aligh width: 100%;
+                            }
+                            
+                            .navigation a {
+                                text-decoration: none;
+                                color: rgb(49, 60, 70);
+                                box-sizing: border-box;
+                                background: silver;
+                                border: 1px solid black;
+                                margin: 20px 10px;
+                                padding: 1px 1px;
+                                display: flex;
+                                width: 100%
+                            }
+                            
+                            a:hover {
+                                background-color: rgb(143, 170, 250);
+                            }
+                            
+                            .containermain {
+                                display: flex;
+                                justify-content: center;
+                                align-content: center;
+                                align-items: center;
+                                box-sizing: border-box;
+                                max-height: 380px;
+                            }
+                            
+                            .pagetitle {
+                                display: flex;
+                                flex-wrap: wrap;
+                                font-size: 80px;
+                                text-align: center;
+                                margin: 10px 0px 10px 0px;
+                                float: left;
+                                box-sizing: border-box;
+                            }
+                            
+                            .box1 {
+                                align-content: center;
+                                align-items: center;
+                                height: auto:
+                            }
+                            
+                            .button {
+                                width: 100px;
+                                padding: 5px;
+                                margin: 5px;
+                                display: flex;
+                                justify-content: center;
+                                align-self: center;
+                                border: inset;
+                            }
+                            
+                            .button:hover {
+                                background-color: rgb(143, 170, 250);
+                            }
+                            
+                            .circlepic {
+                                width: 400px;
+                                display: inline;
+                                margin: 0px 0px 0px 0px;
+                            }
+                            
+                            .box1,
+                            .circlepic {
+                                display: flex;
+                                flex-direction: column;
+                            }
+                            
+                            .container2 {
+                                box-sizing: border-box;
+                                display: flex;
+                                align-content: center;
+                                justify-content: space-around;
+                                justify-items: center;
+                            }
+                            
+                            .features,
+                            .about {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                justify-items: space-around;
+                            }
+                            
+                            .container3pic .middle-img {
+                                display: flex;
+                                width: 100%;
+                                align-content: center;
+                            }
+                            
+                            footer {
+                                text-align: center;
+                                height: 50px;
+                                margin: 100px;
+                            }
+                            
+                            .container4 {
+                                display: flex;
+                                box-sizing: border-box;
+                                align-items: center;
+                            }
+                            
+                            .services,
+                            .product,
+                            .vision {
+                                margin: 5px;
+                            }
+                            
+                            #features,
+                            #about,
+                            #services,
+                            #product,
+                            #vision {
+                                display: flex;
+                                align-self: center;
+                                align-items: center;
+                                justify-content: center;
+                                align-content: space-between;
+                            }
+                            
+                            .contactnumber {
+                                margin: 15px 0px 15px;
+                            }
+                            /* tablet size roughly 768-800 width*/
+                            
+                            @media (max-width:800px) {
+                                .circlepic {
+                                    display: none;
+                                }
+                                .topNav {
+                                    flex-direction: column-reverse;
+                                    margin: 0 auto;
+                                    align-items: center;
+                                    align-content: space-between;
+                                    width: 100%;
+                                    height: 150px;
+                                }
+                                div .navigation {
+                                    display: flex;
+                                    width: 100%;
+                                }
+                                div.imgLogo {
+                                    align-self: center;
+                                }
+                                .logo {
+                                    justify-content: center;
+                                    height: 50px;
+                                    margin: 10px;
+                                }
+                            }
+                            /* phone screeen sizes roughly 320-504 width*/
+                            
+                            @media (max-width:500px) {
+                                nav.topNav {
+                                    height: 100%;
+                                }
+                                div.navigation {
+                                    width: 100%;
+                                    display: flex;
+                                    align-items: center;
+                                    flex-direction: column;
+                                }
+                                .navigation a {
+                                    display: flex;
+                                    justify-content: center;
+                                    width: 100%;
+                                    margin: 0px;
+                                    padding: 10px 0px;
+                                    background: white;
+                                    border-left: none;
+                                    border-right: none;
+                                    border-top: 1px solid rgb(141, 139, 139);
+                                    border-bottom: 1px solid rgb(141, 139, 139);
+                                }
+                                .container2 {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: flex-start;
+                                }
+                                #about {
+                                    width: 100%;
+                                    display: flex;
+                                    justify-content: flex-start;
+                                    margin-top: 10px;
+                                    margin-bottom: 10px;
+                                }
+                                #features {
+                                    width: 100%;
+                                    display: flex;
+                                    justify-content: flex-start;
+                                    margin-top: 10px;
+                                    margin-bottom: 10px;
+                                }
+                                div.about {
+                                    display: flex;
+                                }
+                                .container4 {
+                                    display: block;
+                                }
+                                .container3pic {
+                                    margin: 10px 0px;
+                                }
+                                #product,
+                                #services,
+                                #vision {
+                                    display: block;
+                                    margin-top: 10px;
+                                    margin-bottom: 10px;
+                                }
+                            }
